@@ -346,8 +346,7 @@
 
 ### 아키텍처 패턴
 
-- **마이크로서비스(Microservices)
-  **: [1권 16장 실세계 시스템들](./notes/vol1/16-01-real-world-systems.md), [2권 4장 분산 메시지 큐](./notes/vol2/04-03-message-queue-detail.md)
+- **마이크로서비스(Microservices)**: [1권 16장 실세계 시스템들](./notes/vol1/16-01-real-world-systems.md), [2권 4장 분산 메시지 큐](./notes/vol2/04-03-message-queue-detail.md)
 - **모놀리식(Monolithic)**: [1권 1장 단일 서버](./notes/vol1/01-01-single-server.md)
 - **서버리스(Serverless)**: [2권 6장 광고 클릭 이벤트 집계](./notes/vol2/06-03-ad-click-detail.md)
 - **이벤트 소싱(Event Sourcing)**: [2권 11장 결제 시스템](./notes/vol2/11-03-payment-system-detail.md)
@@ -355,87 +354,56 @@
 
 ### 시스템 특성
 
-- **확장성(Scalability)
-  **: [1권 1장 전체](./notes/vol1/01-00-scale-with-users.md), [1권 10장 알림 시스템](./notes/vol1/10-03-notification-detail.md)
-- **가용성(Availability)
-  **: [1권 2장 가용성 수치](./notes/vol1/02-03-availability-numbers.md), [1권 5장 안정 해시](./notes/vol1/05-02-consistent-hashing.md)
-- **내구성(Durability)
-  **: [1권 6장 키-값 저장소](./notes/vol1/06-03-distributed-kv.md), [2권 9장 오브젝트 스토리지](./notes/vol2/09-03-object-storage-detail.md)
-- **일관성(Consistency)
-  **: [1권 6장 키-값 저장소](./notes/vol1/06-03-distributed-kv.md), [1권 15장 구글 드라이브](./notes/vol1/15-03-google-drive-detail.md)
-- **지연 시간(Latency)
-  **: [1권 2장 응답지연 값](./notes/vol1/02-02-latency-numbers.md), [2권 3장 구글 맵](./notes/vol2/03-03-google-maps-detail.md)
-- **처리량(Throughput)
-  **: [1권 4장 처리율 제한 장치](./notes/vol1/04-01-rate-limiter-problem.md), [2권 4장 분산 메시지 큐](./notes/vol2/04-03-message-queue-detail.md)
-- **내결함성(Fault Tolerance)
-  **: [1권 5장 안정 해시](./notes/vol1/05-02-consistent-hashing.md), [2권 8장 분산 이메일 서비스](./notes/vol2/08-03-email-system-detail.md)
+- **확장성(Scalability)**: [1권 1장 전체](./notes/vol1/01-00-scale-with-users.md), [1권 10장 알림 시스템](./notes/vol1/10-03-notification-detail.md)
+- **가용성(Availability)**: [1권 2장 가용성 수치](./notes/vol1/02-03-availability-numbers.md), [1권 5장 안정 해시](./notes/vol1/05-02-consistent-hashing.md)
+- **내구성(Durability)**: [1권 6장 키-값 저장소](./notes/vol1/06-03-distributed-kv.md), [2권 9장 오브젝트 스토리지](./notes/vol2/09-03-object-storage-detail.md)
+- **일관성(Consistency)**: [1권 6장 키-값 저장소](./notes/vol1/06-03-distributed-kv.md), [1권 15장 구글 드라이브](./notes/vol1/15-03-google-drive-detail.md)
+- **지연 시간(Latency)**: [1권 2장 응답지연 값](./notes/vol1/02-02-latency-numbers.md), [2권 3장 구글 맵](./notes/vol2/03-03-google-maps-detail.md)
+- **처리량(Throughput)**: [1권 4장 처리율 제한 장치](./notes/vol1/04-01-rate-limiter-problem.md), [2권 4장 분산 메시지 큐](./notes/vol2/04-03-message-queue-detail.md)
+- **내결함성(Fault Tolerance)**: [1권 5장 안정 해시](./notes/vol1/05-02-consistent-hashing.md), [2권 8장 분산 이메일 서비스](./notes/vol2/08-03-email-system-detail.md)
 
 ### 시스템 컴포넌트
 
 - **부하 분산(Load Balancing)**: [1권 1장 로드 밸런서](./notes/vol1/01-04-load-balancer.md), [1권 4장 처리율 제한 장치](
   ./notes/vol1/04-03-rate-limiter-detail.md)
-- **캐싱(Caching)
-  **: [1권 1장 캐시](./notes/vol1/01-06-cache.md), [1권 11장 뉴스 피드](./notes/vol1/11-03-news-feed-detail.md), [1권 13장 검색어 자동완성](./notes/vol1/13-03-autocomplete-detail.md)
-- **CDN(Content Delivery Network)
-  **: [1권 1장 CDN](./notes/vol1/01-07-cdn.md), [1권 14장 유튜브](./notes/vol1/14-03-youtube-detail.md)
-- **메시지 큐(Message Queue)
-  **: [1권 1장 메시지 큐](./notes/vol1/01-10-message-queue.md), [2권 4장 분산 메시지 큐](./notes/vol2/04-01-message-queue-problem.md)
-- **API 게이트웨이(API Gateway)
-  **: [1권 4장 처리율 제한 장치](./notes/vol1/04-03-rate-limiter-detail.md), [1권 10장 알림 시스템](./notes/vol1/10-02-notification-design.md)
-- **웹소켓(WebSocket)
-  **: [1권 12장 채팅 시스템](./notes/vol1/12-03-chat-system-detail.md), [2권 10장 실시간 게임 순위표](./notes/vol2/10-03-leaderboard-detail.md)
+- **캐싱(Caching)**: [1권 1장 캐시](./notes/vol1/01-06-cache.md), [1권 11장 뉴스 피드](./notes/vol1/11-03-news-feed-detail.md), [1권 13장 검색어 자동완성](./notes/vol1/13-03-autocomplete-detail.md)
+- **CDN(Content Delivery Network)**: [1권 1장 CDN](./notes/vol1/01-07-cdn.md), [1권 14장 유튜브](./notes/vol1/14-03-youtube-detail.md)
+- **메시지 큐(Message Queue)**: [1권 1장 메시지 큐](./notes/vol1/01-10-message-queue.md), [2권 4장 분산 메시지 큐](./notes/vol2/04-01-message-queue-problem.md)
+- **API 게이트웨이(API Gateway)**: [1권 4장 처리율 제한 장치](./notes/vol1/04-03-rate-limiter-detail.md), [1권 10장 알림 시스템](./notes/vol1/10-02-notification-design.md)
+- **웹소켓(WebSocket)**: [1권 12장 채팅 시스템](./notes/vol1/12-03-chat-system-detail.md), [2권 10장 실시간 게임 순위표](./notes/vol2/10-03-leaderboard-detail.md)
 
 ### 데이터베이스 관련
 
-- **데이터베이스 샤딩(Sharding)
-  **: [1권 1장 데이터베이스 규모 확장](./notes/vol1/01-12-database-scaling.md), [1권 6장 키-값 저장소](./notes/vol1/06-03-distributed-kv.md)
-- **복제(Replication)
-  **: [1권 1장 데이터베이스 다중화](./notes/vol1/01-05-database-replication.md), [2권 8장 분산 이메일 서비스](./notes/vol2/08-03-email-system-detail.md)
-- **인덱싱(Indexing)
-  **: [1권 8장 URL 단축기](./notes/vol1/08-03-url-shortener-detail.md), [1권 13장 검색어 자동완성](./notes/vol1/13-03-autocomplete-detail.md)
-- **NoSQL 데이터베이스
-  **: [1권 6장 키-값 저장소](./notes/vol1/06-01-kv-store-problem.md), [2권 9장 오브젝트 스토리지](./notes/vol2/09-02-object-storage-design.md)
-- **SQL 데이터베이스
-  **: [1권 1장 데이터베이스](./notes/vol1/01-02-database.md), [2권 7장 호텔 예약 시스템](./notes/vol2/07-03-hotel-reservation-detail.md)
-- **트랜잭션(Transaction)
-  **: [1권 6장 키-값 저장소](./notes/vol1/06-03-distributed-kv.md), [2권 11장 결제 시스템](./notes/vol2/11-03-payment-system-detail.md)
+- **데이터베이스 샤딩(Sharding)**: [1권 1장 데이터베이스 규모 확장](./notes/vol1/01-12-database-scaling.md), [1권 6장 키-값 저장소](./notes/vol1/06-03-distributed-kv.md)
+- **복제(Replication)**: [1권 1장 데이터베이스 다중화](./notes/vol1/01-05-database-replication.md), [2권 8장 분산 이메일 서비스](./notes/vol2/08-03-email-system-detail.md)
+- **인덱싱(Indexing)**: [1권 8장 URL 단축기](./notes/vol1/08-03-url-shortener-detail.md), [1권 13장 검색어 자동완성](./notes/vol1/13-03-autocomplete-detail.md)
+- **NoSQL 데이터베이스**: [1권 6장 키-값 저장소](./notes/vol1/06-01-kv-store-problem.md), [2권 9장 오브젝트 스토리지](./notes/vol2/09-02-object-storage-design.md)
+- **SQL 데이터베이스**: [1권 1장 데이터베이스](./notes/vol1/01-02-database.md), [2권 7장 호텔 예약 시스템](./notes/vol2/07-03-hotel-reservation-detail.md)
+- **트랜잭션(Transaction)**: [1권 6장 키-값 저장소](./notes/vol1/06-03-distributed-kv.md), [2권 11장 결제 시스템](./notes/vol2/11-03-payment-system-detail.md)
 
 ### 분산 시스템 개념
 
-- **분산 락(Distributed Lock)
-  **: [1권 7장 유일 ID 생성기](./notes/vol1/07-03-unique-id-detail.md), [2권 7장 호텔 예약 시스템](./notes/vol2/07-03-hotel-reservation-detail.md)
-- **합의 알고리즘(Consensus)
-  **: [1권 6장 키-값 저장소](./notes/vol1/06-03-distributed-kv.md), [2권 4장 분산 메시지 큐](./notes/vol2/04-03-message-queue-detail.md)
-- **CAP 이론
-  **: [1권 6장 키-값 저장소](./notes/vol1/06-03-distributed-kv.md), [2권 8장 분산 이메일 서비스](./notes/vol2/08-02-email-system-design.md)
-- **분산 트랜잭션
-  **: [1권 6장 키-값 저장소](./notes/vol1/06-03-distributed-kv.md), [2권 11장 결제 시스템](./notes/vol2/11-03-payment-system-detail.md)
-- **데이터 파티셔닝(Partitioning)
-  **: [1권 1장 데이터베이스 규모 확장](./notes/vol1/01-12-database-scaling.md), [1권 11장 뉴스 피드](./notes/vol1/11-03-news-feed-detail.md)
+- **분산 락(Distributed Lock)**: [1권 7장 유일 ID 생성기](./notes/vol1/07-03-unique-id-detail.md), [2권 7장 호텔 예약 시스템](./notes/vol2/07-03-hotel-reservation-detail.md)
+- **합의 알고리즘(Consensus)**: [1권 6장 키-값 저장소](./notes/vol1/06-03-distributed-kv.md), [2권 4장 분산 메시지 큐](./notes/vol2/04-03-message-queue-detail.md)
+- **CAP 이론**: [1권 6장 키-값 저장소](./notes/vol1/06-03-distributed-kv.md), [2권 8장 분산 이메일 서비스](./notes/vol2/08-02-email-system-design.md)
+- **분산 트랜잭션**: [1권 6장 키-값 저장소](./notes/vol1/06-03-distributed-kv.md), [2권 11장 결제 시스템](./notes/vol2/11-03-payment-system-detail.md)
+- **데이터 파티셔닝(Partitioning)**: [1권 1장 데이터베이스 규모 확장](./notes/vol1/01-12-database-scaling.md), [1권 11장 뉴스 피드](./notes/vol1/11-03-news-feed-detail.md)
 
 ### 특정 시스템 디자인
 
-- **검색 시스템
-  **: [1권 9장 웹 크롤러](./notes/vol1/09-01-web-crawler-problem.md), [1권 13장 검색어 자동완성](./notes/vol1/13-01-autocomplete-problem.md)
-- **지리 공간 시스템
-  **: [2권 1장 근접성 서비스](./notes/vol2/01-01-proximity-problem.md), [2권 2장 주변 친구](./notes/vol2/02-01-nearby-friends-problem.md), [2권 3장 구글 맵](./notes/vol2/03-01-google-maps-problem.md)
-- **실시간 분석
-  **: [2권 5장 지표 모니터링](./notes/vol2/05-01-monitoring-problem.md), [2권 6장 광고 클릭 이벤트 집계](./notes/vol2/06-01-ad-click-problem.md)
+- **검색 시스템**: [1권 9장 웹 크롤러](./notes/vol1/09-01-web-crawler-problem.md), [1권 13장 검색어 자동완성](./notes/vol1/13-01-autocomplete-problem.md)
+- **지리 공간 시스템**: [2권 1장 근접성 서비스](./notes/vol2/01-01-proximity-problem.md), [2권 2장 주변 친구](./notes/vol2/02-01-nearby-friends-problem.md), [2권 3장 구글 맵](./notes/vol2/03-01-google-maps-problem.md)
+- **실시간 분석**: [2권 5장 지표 모니터링](./notes/vol2/05-01-monitoring-problem.md), [2권 6장 광고 클릭 이벤트 집계](./notes/vol2/06-01-ad-click-problem.md)
 - **미디어 스트리밍**: [1권 14장 유튜브](./notes/vol1/14-01-youtube-problem.md)
-- **파일 저장 및 공유
-  **: [1권 15장 구글 드라이브](./notes/vol1/15-01-google-drive-problem.md), [2권 9장 오브젝트 스토리지](./notes/vol2/09-01-object-storage-problem.md)
-- **메시징 시스템
-  **: [1권 10장 알림 시스템](./notes/vol1/10-01-notification-problem.md), [1권 12장 채팅 시스템](./notes/vol1/12-01-chat-system-problem.md), [2권 8장 분산 이메일 서비스](./notes/vol2/08-01-email-system-problem.md)
+- **파일 저장 및 공유**: [1권 15장 구글 드라이브](./notes/vol1/15-01-google-drive-problem.md), [2권 9장 오브젝트 스토리지](./notes/vol2/09-01-object-storage-problem.md)
+- **메시징 시스템**: [1권 10장 알림 시스템](./notes/vol1/10-01-notification-problem.md), [1권 12장 채팅 시스템](./notes/vol1/12-01-chat-system-problem.md), [2권 8장 분산 이메일 서비스](./notes/vol2/08-01-email-system-problem.md)
 
 ### 성능 최적화
 
 - **성능 모니터링**: [2권 5장 지표 모니터링 및 경보 시스템](./notes/vol2/05-01-monitoring-problem.md)
-- **병목 현상 식별
-  **: [1권 2장 규모 추정](./notes/vol1/02-01-power-of-two.md), [2권 5장 지표 모니터링](./notes/vol2/05-03-monitoring-detail.md)
-- **데이터 압축
-  **: [1권 14장 유튜브](./notes/vol1/14-03-youtube-detail.md), [2권 9장 오브젝트 스토리지](./notes/vol2/09-03-object-storage-detail.md)
-- **데이터 프루닝(Pruning)
-  **: [1권 11장 뉴스 피드](./notes/vol1/11-03-news-feed-detail.md), [2권 10장 실시간 게임 순위표](./notes/vol2/10-03-leaderboard-detail.md)
+- **병목 현상 식별**: [1권 2장 규모 추정](./notes/vol1/02-01-power-of-two.md), [2권 5장 지표 모니터링](./notes/vol2/05-03-monitoring-detail.md)
+- **데이터 압축**: [1권 14장 유튜브](./notes/vol1/14-03-youtube-detail.md), [2권 9장 오브젝트 스토리지](./notes/vol2/09-03-object-storage-detail.md)
+- **데이터 프루닝(Pruning)**: [1권 11장 뉴스 피드](./notes/vol1/11-03-news-feed-detail.md), [2권 10장 실시간 게임 순위표](./notes/vol2/10-03-leaderboard-detail.md)
 
 ## 📝 학습 진행 상황
 
